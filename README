@@ -1,0 +1,2 @@
+Sample application to show a working example of the translate_routes plugin.
+The application interface includes file-by-file instructions, so just start it with script/server to see the results. 

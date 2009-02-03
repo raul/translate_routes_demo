@@ -1,0 +1,1 @@
+require 'translate_routes_i18n_available_locales'
