@@ -1,9 +1,9 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
-  first_name: MyString
-  last_name: MyString
+matz:
+  first_name: Yukihiro
+  last_name: Matsumoto
 
-two:
-  first_name: MyString
-  last_name: MyString
+dhh:
+  first_name: David
+  last_name: Heinemeier Hansson
