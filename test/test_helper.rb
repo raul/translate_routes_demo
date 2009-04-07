@@ -5,7 +5,4 @@ require 'test_help'
 require 'translate_routes_test_helper' # here you get translated routes
 
 class Test::Unit::TestCase
-  self.use_transactional_fixtures = true
-  self.use_instantiated_fixtures  = false
-  fixtures :all
 end
