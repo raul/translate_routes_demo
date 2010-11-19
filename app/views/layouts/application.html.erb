@@ -13,7 +13,7 @@
 <div id="header">
   <div id="locale-switch">
     <strong><%= I18n.t 'current_locale' %>: <%= I18n.locale.to_s %></strong> |
-    <%= I18n.locale == 'es' ? link_to('en', :locale => 'en') : link_to('es', :locale => 'es') %>
+    <%= I18n.locale == 'es' ? link_to('en', params.merge(:locale => 'en')) : link_to('es', params.merge(:locale => 'es')) %>
   </div>
   <div id="about">
     <a href="#" onclick="$('howto').toggle();"><%= I18n.t 'about_integration' %></a>
